@@ -1,0 +1,9 @@
+pip install nodeenv
+nodeenv env
+. env/bin/activate
+
+nodeenv {NAME OF ENVIRONMENT}
+. {NAME OF ENVIRONMENT}/bin/activate
+
+to exit:
+deactivate_node

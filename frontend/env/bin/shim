@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+export NODE_PATH='/Users/saicoumar/Work/hackduke2021/frontend/env/lib/node_modules'
+export NPM_CONFIG_PREFIX='/Users/saicoumar/Work/hackduke2021/frontend/env'
+export npm_config_prefix='/Users/saicoumar/Work/hackduke2021/frontend/env'
+exec 'env/bin/node' "$@"

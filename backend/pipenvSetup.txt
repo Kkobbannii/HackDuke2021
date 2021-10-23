@@ -1,0 +1,4 @@
+Pip install pipenv
+Pipenv install -r requirements.txt
+Pipenv shell
+Python main.py
