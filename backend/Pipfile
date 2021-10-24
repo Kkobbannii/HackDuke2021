@@ -4,9 +4,18 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-flask = "*"
-pytesseract = "*"
-pillow = "*"
+pytesseract = "==0.3.8"
+dnspython = "==2.1.0"
+pymongo = {version = "==3.12.1", extras = ["srv", "tls"]}
+click = "==8.0.3"
+itsdangerous = "==2.0.1"
+Flask = "==2.0.2"
+Pillow = "==8.4.0"
+Cython = "==0.29.24"
+Jinja2 = "==3.0.2"
+MarkupSafe = "==2.0.1"
+Werkzeug = "==2.0.2"
+selenium = "*"
 
 [dev-packages]
 
